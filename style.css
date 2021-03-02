@@ -1,0 +1,38 @@
+body {
+  margin: 10px;
+  font-family: Verdana;
+}
+
+nav {
+  display: flex;
+  height: 200px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  border: 5px solid #aaa;
+  /* justify-content: center; */
+  align-items: flex-start;
+}
+
+nav div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2rem;
+  min-width: 250px;
+  /* width: 33.3%; */
+  flex: 1;
+}
+
+nav div:nth-child(1) {
+  background-color: #84b0f8;
+  order: 3;
+}
+
+nav div:nth-child(2) {
+  background-color: #f2857c;
+  order: 1;
+}
+
+nav div:nth-child(3) {
+  background-color: #fcd35d;
+  order: 2;
+}
